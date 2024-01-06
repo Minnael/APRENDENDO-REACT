@@ -1,0 +1,10 @@
+.perfil{
+   font-size: 17;
+   font-family: sans-serif;
+   font-style: normal;
+}     
+
+.perfil img{
+   width: 34%;
+   display: inline-block;
+}  
