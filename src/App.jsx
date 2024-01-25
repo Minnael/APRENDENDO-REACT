@@ -1,14 +1,17 @@
+import { useState } from 'react'
 import './App.css'
+import Nome from './components/Nome/Nome.jsx'
+import Saudacao from './components/Nome/Saudacao.jsx'
 
-import Jogador from './components/Jogador/Jogador.jsx'
-import Lista from './components/Carro/Lista.jsx'
-import Evento from './components/Evento/Evento.jsx'
-import Form from './components/Form/Form.jsx'
 
 function App() {
+
+  const [nome, setNome] = useState()
+
   return (  
     <div className='App'> 
-      
+      <Nome setNome={setNome}/>
+      <Saudacao nome={nome}/>
     </div>
   )
 }

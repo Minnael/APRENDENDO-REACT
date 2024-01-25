@@ -7,24 +7,3 @@
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
 }
-  
-.carros{
-  margin-top: 20px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  font-size: 14px;
-}
-
-.carros li{
-  width: 30%;
-  height: 300px;
-  background-color: red;
-  border: 4px solid red;
-}
-
-.carros img{
-  width: 400px;
-  height: 250px;
-}
